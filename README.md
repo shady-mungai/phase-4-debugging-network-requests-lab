@@ -62,12 +62,23 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: 
+```bash
+Added a new toy without updating the rails code.
+Viewed the error showed in the console 
+There was a slight typo "Toys" instead of "Toy"
+```
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  ```bash
+  Added an increment of +1 to the likes key-value
+  ```
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  ```bash
+  Delete method was working
+  ```
